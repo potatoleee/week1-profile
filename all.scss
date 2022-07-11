@@ -1,5 +1,11 @@
 @import 'reset';
 
+$text-black:#000;
+$text-white:#fff;
+$text-red:#A00404;
+$bg:#415165;
+
+
 body{
     // mac英文字 SF Pro          window微軟正黑體
     font-family: "SF Pro Text", "PingFang TC","Microsoft JhengHei";
@@ -7,17 +13,164 @@ body{
 }
 h1{
     font-family:  "SF Pro Text";
+    font-size: 80px;
+    line-height: 95px;
 }
+
 h2{
-    font-weight: 500;
     font-size: 32px;
-}
-h3{
     font-weight: 500;
+}
+
+h3{
     font-size: 24px;
+    font-weight: 500;
+}
+p{
+    font-size: 24px;
+    font-weight: 300;
 }
 .text-md{
     font-size: 24px;
     font-weight: 300;
+}
+.text-sm{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    // vertical-align: middle;
+    display: block;
+}
+.subTitle{
+    color:$text-red;
+    font-size: 24px;
+    font-weight: 600;
+    vertical-align: text-top;
+    margin-left: 16px;
 
 }
+.text-white{
+    color: $text-white;
+}
+.text-center{
+    text-align: center;
+}
+//main start
+
+.name{
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid $text-black;
+    color: $text-black;
+}
+
+.avator{
+    padding: 48px 0px;
+}
+.profile{
+    margin-bottom: 70px;
+
+    .profile-name{
+        padding-bottom: 24px;
+    }
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:$text-black;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.education{
+    margin-bottom: 64px;
+    .education-master{
+        padding-bottom: 16px;
+    }
+}
+
+.skills{
+    background-color: $bg;
+    margin: 64px 0px;
+    padding-bottom: 40px;
+    h2{
+        padding-top: 24px;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+    
+}
+.line2{
+    width: 83%;
+    height: 1px;
+    background-color: $text-white;
+    margin: 0 auto;
+
+}
+.skills-main{
+    margin-top: 40px;
+    margin-left: 41%;
+    border-left: 1px solid #96A9C4;
+   
+    li{
+        margin-bottom: 8px;
+        padding-left: 24px;
+
+        &:nth-last-child(1){
+            margin-bottom: 0px;
+        }
+    }
+}
+.work{
+    margin-bottom: 80px;
+}
+.work-content{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: 24px;
+    .work-content_hex{
+        margin-top: 0px;
+    }
+
+    h3{
+        margin-top: 24px;
+    }
+    
+   
+}
+footer{
+    background-color: $bg;
+    text-align: center;
+    h2{
+        padding-top: 24px;
+        padding-bottom: 8px;
+
+    }
+    .subTitle{
+        font-weight: 500;
+    }
+}
+.footer-main{
+    padding-top:24px;
+    padding-bottom: 40px;
+    li{
+        margin-bottom: 16px;
+    }
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+
+    img{
+        &:nth-child(2){
+            margin: 0px 24px;
+        }
+    }
+}
+
