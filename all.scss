@@ -40,13 +40,15 @@ p{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1232px;
     margin: 0 auto;
+    padding: 0px 16px;
 }
 img{
     // vertical-align: middle;
     display: block;
 }
+
 .subTitle{
     color:$text-red;
     font-size: 24px;
@@ -64,17 +66,25 @@ img{
 //main start
 
 .name{
-    padding-top: 40px;
-    padding-bottom: 25px;
-    border-bottom: 2px solid $text-black;
-    color: $text-black;
+    h1{
+
+        padding-top: 40px;
+        padding-bottom: 24px;
+        color: $text-black;
+    }
+}
+.line-name{
+    height: 2px;
+    background-color: $text-black;
 }
 
 .avator{
-    padding: 48px 0px;
+   
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 .profile{
-    margin-bottom: 70px;
+    margin-bottom: 64px;
 
     .profile-name{
         padding-bottom: 24px;
@@ -96,7 +106,7 @@ img{
 
 .skills{
     background-color: $bg;
-    margin: 64px 0px;
+    margin-bottom: 64px;
     padding-bottom: 40px;
     h2{
         padding-top: 24px;
@@ -140,21 +150,33 @@ img{
     h3{
         margin-top: 24px;
     }
+    p{
+        font-size: 20px;
+    }
+    .work-content_hexText{
+        max-width: 642px;
+    };
     
    
 }
+
+// footer start
 footer{
     background-color: $bg;
     text-align: center;
     h2{
         padding-top: 24px;
-        padding-bottom: 8px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid $text-white;
+        width: 83%;
+        margin: 0 auto;
 
     }
     .subTitle{
         font-weight: 500;
     }
 }
+
 .footer-main{
     padding-top:24px;
     padding-bottom: 40px;

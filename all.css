@@ -90,8 +90,9 @@ p {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1232px;
   margin: 0 auto;
+  padding: 0px 16px;
 }
 
 img {
@@ -114,19 +115,24 @@ img {
   text-align: center;
 }
 
-.name {
+.name h1 {
   padding-top: 40px;
-  padding-bottom: 25px;
-  border-bottom: 2px solid #000;
+  padding-bottom: 24px;
   color: #000;
 }
 
+.line-name {
+  height: 2px;
+  background-color: #000;
+}
+
 .avator {
-  padding: 48px 0px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .profile {
-  margin-bottom: 70px;
+  margin-bottom: 64px;
 }
 
 .profile .profile-name {
@@ -151,7 +157,7 @@ img {
 
 .skills {
   background-color: #415165;
-  margin: 64px 0px;
+  margin-bottom: 64px;
   padding-bottom: 40px;
 }
 
@@ -201,6 +207,14 @@ img {
   margin-top: 24px;
 }
 
+.work-content p {
+  font-size: 20px;
+}
+
+.work-content .work-content_hexText {
+  max-width: 642px;
+}
+
 footer {
   background-color: #415165;
   text-align: center;
@@ -208,7 +222,10 @@ footer {
 
 footer h2 {
   padding-top: 24px;
-  padding-bottom: 8px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #fff;
+  width: 83%;
+  margin: 0 auto;
 }
 
 footer .subTitle {
