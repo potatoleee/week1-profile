@@ -121,7 +121,7 @@ img {
   color: #000;
 }
 
-.line-name {
+.line__name {
   height: 2px;
   background-color: #000;
 }
@@ -135,7 +135,7 @@ img {
   margin-bottom: 64px;
 }
 
-.profile .profile-name {
+.profile .profile__name {
   padding-bottom: 24px;
 }
 
@@ -151,7 +151,7 @@ img {
   margin-bottom: 64px;
 }
 
-.education .education-master {
+.education .education__master {
   padding-bottom: 16px;
 }
 
@@ -174,18 +174,18 @@ img {
   margin: 0 auto;
 }
 
-.skills-main {
+.skills__main {
   margin-top: 40px;
   margin-left: 41%;
   border-left: 1px solid #96A9C4;
 }
 
-.skills-main li {
+.skills__main li {
   margin-bottom: 8px;
   padding-left: 24px;
 }
 
-.skills-main li:nth-last-child(1) {
+.skills__main li:nth-last-child(1) {
   margin-bottom: 0px;
 }
 
@@ -193,25 +193,25 @@ img {
   margin-bottom: 80px;
 }
 
-.work-content {
+.work__content {
   border-left: 1px solid #96A9C4;
   padding-left: 24px;
   margin-left: 24px;
 }
 
-.work-content .work-content_hex {
+.work__content .work__content--hex {
   margin-top: 0px;
 }
 
-.work-content h3 {
+.work__content h3 {
   margin-top: 24px;
 }
 
-.work-content p {
+.work__content p {
   font-size: 20px;
 }
 
-.work-content .work-content_hexText {
+.work__content .work__content--hexText {
   max-width: 642px;
 }
 
@@ -232,20 +232,20 @@ footer .subTitle {
   font-weight: 500;
 }
 
-.footer-main {
+.footer__main {
   padding-top: 24px;
   padding-bottom: 40px;
 }
 
-.footer-main li {
+.footer__main li {
   margin-bottom: 16px;
 }
 
-.footer-main .social {
+.footer__main .social {
   margin-bottom: 0;
 }
 
-.footer-main .social img:nth-child(2) {
+.footer__main .social img:nth-child(2) {
   margin: 0px 22px;
 }
 /*# sourceMappingURL=all.css.map */
