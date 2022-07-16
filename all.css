@@ -54,7 +54,7 @@ table {
 }
 
 body {
-  font-family: "SF Pro Text", "PingFang TC","Microsoft JhengHei";
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont,  "PingFang TC", "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -99,12 +99,17 @@ img {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .subTitle {
   color: #A00404;
   font-size: 24px;
   font-weight: 600;
-  vertical-align: text-top;
   margin-left: 16px;
+  vertical-align: 6px;
 }
 
 .text-white {
@@ -174,9 +179,14 @@ img {
   margin: 0 auto;
 }
 
+.skills__content {
+  text-align: center;
+}
+
 .skills__main {
+  display: inline-block;
+  text-align-last: left;
   margin-top: 40px;
-  margin-left: 41%;
   border-left: 1px solid #96A9C4;
 }
 
@@ -245,7 +255,7 @@ footer .subTitle {
   margin-bottom: 0;
 }
 
-.footer__main .social img:nth-child(2) {
+.footer__main .social a:nth-child(2) {
   margin: 0px 22px;
 }
 /*# sourceMappingURL=all.css.map */
